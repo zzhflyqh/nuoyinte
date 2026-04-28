@@ -1,55 +1,269 @@
-Privacy Policy
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <style>
+        /* Base styles */
+        :root {
+            --primary-color: #1A365D; /* Professional Navy Blue */
+            --secondary-color: #2B6CB0;
+            --text-color: #2D3748;
+            --text-light: #4A5568;
+            --bg-color: #F7FAFC;
+            --card-bg: #FFFFFF;
+        }
 
-Last updated: February 27, 2026
+        body {
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+        }
 
-Thank you for using our game (the “Application”). We respect your privacy and are committed to protecting user information. This Privacy Policy explains how information is handled when you use the Application.
+        /* Header */
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 4px solid var(--secondary-color);
+        }
 
-1. Information Collection
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
 
-The Application is an offline single-player game.
+        header p.subtitle {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            font-weight: 300;
+            opacity: 0.9;
+            letter-spacing: 0.5px;
+        }
 
-We do not collect, store, or share any personally identifiable information, including but not limited to:
+        /* Main Container */
+        .container {
+            max-width: 960px;
+            margin: -3rem auto 4rem;
+            background: var(--card-bg);
+            padding: 4rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
+            position: relative;
+        }
 
-Name
+        /* Typography & Layout */
+        section {
+            margin-bottom: 3.5rem;
+        }
 
-Phone number
+        section:last-child {
+            margin-bottom: 0;
+        }
+        
+        .intro-text {
+            font-size: 1.15rem;
+            margin-bottom: 3rem;
+            color: var(--text-color);
+            font-weight: 500;
+        }
 
-Address
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+        }
 
-Email address
+        h2::after {
+            content: "";
+            flex: 1;
+            margin-left: 1rem;
+            height: 1px;
+            background-color: #E2E8F0;
+        }
 
-Location data
+        p {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
 
-Contacts
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 1.5rem;
+            background: #F7FAFC;
+            padding: 1.5rem;
+            border-radius: 6px;
+        }
 
-The Application does not require user registration and can function without an internet connection.
+        li {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 0.8rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
 
-2. Automatically Generated Technical Information
+        li:last-child {
+            margin-bottom: 0;
+        }
 
-The Application itself does not actively collect personal information.
+        li::before {
+            content: "•";
+            color: var(--secondary-color);
+            font-weight: bold;
+            display: inline-block;
+            width: 1rem;
+            margin-left: -1.5rem;
+        }
 
-During normal operation, the Android operating system may automatically generate limited technical data such as crash logs or performance diagnostics. These data remain on the user’s device or are handled by the operating system, and we do not access, collect, or store such information.
+        strong {
+            color: var(--text-color);
+            font-weight: 600;
+        }
+        
+        a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
 
-3. Third-Party Services
+        a:hover {
+            text-decoration: underline;
+        }
 
-The Application currently does not use third-party advertising, analytics, or login services.
+        /* Contact Box */
+        .contact-box {
+            background-color: #EBF8FF;
+            padding: 2rem;
+            border-radius: 6px;
+            border-left: 4px solid var(--secondary-color);
+        }
 
-If such services are added in future versions, this Privacy Policy will be updated accordingly.
+        .contact-box p {
+            margin-bottom: 0.5rem;
+            text-align: left;
+        }
 
-4. Children’s Privacy
+        .contact-box p:last-child {
+            margin-bottom: 0;
+        }
 
-The Application is intended for general audiences. We do not knowingly collect personal information from children under the age of 13. If such information is discovered, it will be deleted promptly.
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #718096;
+            font-size: 0.9rem;
+            margin-top: 2rem;
+        }
 
-5. Data Security
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                padding: 3rem 1rem 5rem;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+            .container {
+                margin: -3rem 1rem 2rem;
+                padding: 2rem;
+            }
+            h2 {
+                font-size: 1.3rem;
+            }
+            p, li, .intro-text {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
 
-Since we do not collect personal data, no user data is stored or shared.
+    <header>
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">Last updated: February 27, 2026</p>
+    </header>
 
-6. Changes to This Privacy Policy
+    <main class="container">
+        
+        <p class="intro-text">Thank you for using our game (the “Application”). We respect your privacy and are committed to protecting user information. This Privacy Policy explains how information is handled when you use the Application.</p>
 
-We may update this Privacy Policy from time to time. Updates will be posted on this page.
+        <!-- Section 1 -->
+        <section>
+            <h2>1. Information Collection</h2>
+            <p>The Application is an offline single-player game.</p>
+            <p>We do not collect, store, or share any personally identifiable information, including but not limited to:</p>
+            <ul>
+                <li>Name</li>
+                <li>Phone number</li>
+                <li>Address</li>
+                <li>Email address</li>
+                <li>Location data</li>
+                <li>Contacts</li>
+            </ul>
+            <p>The Application does not require user registration and can function without an internet connection.</p>
+        </section>
 
-7. Contact Us
+        <!-- Section 2 -->
+        <section>
+            <h2>2. Automatically Generated Technical Information</h2>
+            <p>The Application itself does not actively collect personal information.</p>
+            <p>During normal operation, the Android operating system may automatically generate limited technical data such as crash logs or performance diagnostics. These data remain on the user’s device or are handled by the operating system, and we do not access, collect, or store such information.</p>
+        </section>
 
-If you have any questions regarding this Privacy Policy, please contact us at:
+        <!-- Section 3 -->
+        <section>
+            <h2>3. Third-Party Services</h2>
+            <p>The Application currently does not use third-party advertising, analytics, or login services.</p>
+            <p>If such services are added in future versions, this Privacy Policy will be updated accordingly.</p>
+        </section>
 
-Email: weimaomin@gmail.com
+        <!-- Section 4 -->
+        <section>
+            <h2>4. Children’s Privacy</h2>
+            <p>The Application is intended for general audiences. We do not knowingly collect personal information from children under the age of 13. If such information is discovered, it will be deleted promptly.</p>
+        </section>
+
+        <!-- Section 5 -->
+        <section>
+            <h2>5. Data Security</h2>
+            <p>Since we do not collect personal data, no user data is stored or shared.</p>
+        </section>
+
+        <!-- Section 6 -->
+        <section>
+            <h2>6. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Updates will be posted on this page.</p>
+        </section>
+
+        <!-- Section 7 -->
+        <section>
+            <h2>7. Contact Us</h2>
+            <p>If you have any questions regarding this Privacy Policy, please contact us at:</p>
+            <div class="contact-box">
+                <p><strong>Email:</strong> <a href="mailto:weimaomin@gmail.com">weimaomin@gmail.com</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 Shanghai Nuoyinte Technology Co., Ltd. All rights reserved.
+    </footer>
+
+</body>
+</html>
