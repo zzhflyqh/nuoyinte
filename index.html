@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanghai Nuoyinte Technology Co., Ltd.</title>
+    <style>
+        /* Base styles */
+        :root {
+            --primary-color: #1A365D; /* Professional Navy Blue */
+            --secondary-color: #2B6CB0;
+            --text-color: #2D3748;
+            --text-light: #4A5568;
+            --bg-color: #F7FAFC;
+            --card-bg: #FFFFFF;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 4px solid var(--secondary-color);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        header p.subtitle {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            font-weight: 300;
+            opacity: 0.9;
+            letter-spacing: 0.5px;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 960px;
+            margin: -3rem auto 4rem;
+            background: var(--card-bg);
+            padding: 4rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
+            position: relative;
+        }
+
+        /* Typography & Layout */
+        section {
+            margin-bottom: 3.5rem;
+        }
+
+        section:last-child {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.8rem;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::after {
+            content: "";
+            flex: 1;
+            margin-left: 1rem;
+            height: 1px;
+            background-color: #E2E8F0;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        li::before {
+            content: "•";
+            color: var(--secondary-color);
+            font-weight: bold;
+            display: inline-block;
+            width: 1rem;
+            margin-left: -1.5rem;
+        }
+
+        strong {
+            color: var(--text-color);
+            font-weight: 600;
+        }
+
+        /* Contact Box */
+        .contact-box {
+            background-color: #EBF8FF;
+            padding: 2rem;
+            border-radius: 6px;
+            border-left: 4px solid var(--secondary-color);
+        }
+
+        .contact-box p {
+            margin-bottom: 0.5rem;
+            text-align: left;
+        }
+
+        .contact-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #718096;
+            font-size: 0.9rem;
+            margin-top: 2rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                padding: 3rem 1rem 5rem;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+            .container {
+                margin: -3rem 1rem 2rem;
+                padding: 2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+            p, li {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Shanghai Nuoyinte Technology Co., Ltd.</h1>
+        <p class="subtitle">Innovating the Future Through Technology</p>
+    </header>
+
+    <main class="container">
+        <!-- About Us Section -->
+        <section>
+            <h2>About Us</h2>
+            <p>Welcome to <strong>Shanghai Nuoyinte Technology Co., Ltd.</strong> (上海诺因特科技有限公司). Headquartered in the dynamic hub of Shanghai, China, we are a forward-thinking technology enterprise committed to excellence, innovation, and continuous growth. We specialize in delivering high-quality, cutting-edge technological solutions designed to empower modern businesses.</p>
+            <p>Our team comprises dedicated professionals with profound expertise across diverse technology sectors. By bridging the gap between advanced technology and practical application, we help organizations streamline operations, solve complex challenges, and achieve sustainable success in an increasingly digital world.</p>
+        </section>
+
+        <!-- What We Do Section -->
+        <section>
+            <h2>What We Do</h2>
+            <p>At Nuoyinte Technology, we focus on providing reliable and scalable solutions tailored to meet the dynamic demands of our global partners. Our core competencies include:</p>
+            <ul>
+                <li><strong>Innovative Software Solutions:</strong> Designing, developing, and deploying robust software platforms that enhance business efficiency and user experience.</li>
+                <li><strong>Technology Consulting:</strong> Offering strategic insights and actionable roadmaps to guide organizations through complex digital transformations.</li>
+                <li><strong>Research & Development:</strong> Continuously exploring emerging technologies to stay ahead of industry trends and provide future-proof products.</li>
+            </ul>
+        </section>
+
+        <!-- Core Values Section -->
+        <section>
+            <h2>Our Vision & Mission</h2>
+            <p><strong>Vision:</strong> To become a globally recognized leader in technology innovation, setting industry benchmarks for quality, reliability, and technical excellence.</p>
+            <p><strong>Mission:</strong> To provide exceptional technological products and services that drive progress, optimize efficiency, and create measurable value for our clients and the communities we serve.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section>
+            <h2>Contact Us</h2>
+            <p>We are always open to exploring new partnerships, answering your inquiries, and discussing how our technological capabilities can benefit your organization. Reach out to us today to start a conversation.</p>
+            
+            <div class="contact-box">
+                <p><strong>Company:</strong> Shanghai Nuoyinte Technology Co., Ltd.</p>
+                <p><strong>Chinese Name:</strong> 上海诺因特科技有限公司</p>
+                <p><strong>Location:</strong> Shanghai, China</p>
+                <p><strong>Email:</strong> contact@nuoyinte.com</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 Shanghai Nuoyinte Technology Co., Ltd. All rights reserved.
+    </footer>
+
+</body>
+</html>
